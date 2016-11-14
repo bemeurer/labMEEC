@@ -1,16 +1,11 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
-\usepackage{amsmath}
-\usepackage{amsthm}
-\usepackage{amssymb}
-\usepackage{caption}
-\usepackage{subcaption}
 \usepackage{wrapfig}
 \usepackage{graphicx}
 \usepackage{float}
 \graphicspath{ {images/} }
 \usepackage[margin=1in]{geometry}
-\usepackage{url}
+
 
 \title{Lógica \& realimentação proporcional}
 \date{4 de Novembro de 2016}
@@ -47,6 +42,7 @@ tipo de programação lógica, o robô está constantemente a efetuar oscilaçõ
 seu percurso, até mesmo quando este já se encontra sobre a linha. Assim, o
 robô avança aos `s' em torno da linha o que faz com que o processo não pareça
 tão natural quanto pretendíamos.
+
 \section{Seguimento da fita baseado em Lógica com Paragem (fig.4)}
 O programa consiste num loop que integra outros dois: um destinado ao seguimento
 de uma linha preta (ciclo já descrito no ponto 1.1) e o outro testa se há um
